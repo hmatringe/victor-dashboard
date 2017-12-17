@@ -1,0 +1,23 @@
+{:uriI"«file:///Users/Baobair/code/FREE/201712%20BCG%20Victor%20Delannoix/Angle2/app/assets/api/xeditable-groups.json?type=application/json&id=f14156fbf90e4a6b64e2a1d9ba2de09805b09eaf142149b4e7414e3081ecedba:ET:load_pathI"app/assets/api;T:filenameI")app/assets/api/xeditable-groups.json;T:	nameI"xeditable-groups;T:logical_pathI"xeditable-groups.json;T:content_typeI"application/json;T:sourceI"Ù[{
+  "value": "0",
+  "text": "Guest"
+}, {
+  "value": "1",
+  "text": "Service"
+}, {
+  "value": "2",
+  "text": "Customer"
+}, {
+  "value": "3",
+  "text": "Operator"
+}, {
+  "value": "4",
+  "text": "Support"
+}, {
+  "value": "5",
+  "text": "Admin"
+}];T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"yfile-digest:///Users/Baobair/code/FREE/201712%20BCG%20Victor%20Delannoix/Angle2/app/assets/api/xeditable-groups.json;TTF:charsetI"
+utf-8;F:digest"%]´UT…˛Å‚SÛ4}ân3sdBûù,ôaëÑç£7⁄:lengthiÙ:dependencies_digest"%eVJ•œ4—!l0|E)t§¨ß@Ω…˘#ˇäâ %ìv≤Æ:idI"Ef14156fbf90e4a6b64e2a1d9ba2de09805b09eaf142149b4e7414e3081ecedba;F:
+mtimel+éÂZ

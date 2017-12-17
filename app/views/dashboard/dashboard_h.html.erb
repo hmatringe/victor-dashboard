@@ -18,21 +18,26 @@
          <li class="list-group-item">
             <div class="row row-table pv-lg">
                <div class="col-xs-6">
-                  <p class="m0 lead">$ 3,200.00</p>
+                  <p style="color:red;">Coucou Victor</p>
+                  <p class="m0 lead">$ 9,999.00</p>
                   <p class="m0">
                      <small>Available budget</small>
+                     <small>Gross</small>
                   </p>
                </div>
                <div class="col-xs-6 text-center">
+                  <!-- TODO erase -->
+                  <small style="color:red;">Ca c'est des fakes data points...</small>
                   <div data-sparkline="" data-type="line" data-height="60" data-width="80%" data-line-width="2" data-line-color="#7266ba" data-chart-range-min="0" data-spot-color="#888" data-min-spot-color="#7266ba" data-max-spot-color="#7266ba"
-                  data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="3" values="7,3,4,7,5,9,4,4,7,5,9,6,4" data-resize="true"></div>
+                  data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="3" values=<%= @fake_data %> data-resize="true"></div>
+                  <p style="color:red;">...qui viennent du controller</p>
                </div>
             </div>
          </li>
          <li class="list-group-item">
             <div class="row row-table pv-lg">
                <div class="col-xs-6">
-                  <p class="m0 lead">67</p>
+                  <p class="m0 lead">99</p>
                   <p class="m0">
                      <small>New followers</small>
                   </p>
