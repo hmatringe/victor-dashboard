@@ -7,8 +7,7 @@
 *.h text
 
 # Declare files that will always have CRLF line endings on checkout.
-*.sln text eol=lf
-*.rb text eol=lf
+* text eol=lf
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
