@@ -4414,3 +4414,106 @@ Processing by DashboardController#dashboard_h as */*
 Completed 200 OK in 313ms (Views: 310.6ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:54:44 +0100
+Processing by DashboardController#dashboard_h as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (87.9ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (10.3ms)
+  Rendered layouts/partials/_offsidebar.html.erb (6721.1ms)
+  Rendered layouts/partials/_flashes.html.erb (1.0ms)
+  Rendered layouts/partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 28192ms (Views: 28162.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2017-12-18 11:55:13 +0100
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:13 +0100
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:13 +0100
+Processing by DashboardController#dashboard_h as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (21.3ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (2.8ms)
+  Rendered layouts/partials/_offsidebar.html.erb (22.8ms)
+  Rendered layouts/partials/_flashes.html.erb (0.5ms)
+  Rendered layouts/partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 443ms (Views: 437.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Processing by DashboardController#dashboard_h as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (9.9ms)
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+  Rendered layouts/partials/_topnavbar_h.html.erb (5.1ms)
+  Rendered layouts/partials/_offsidebar.html.erb (23.6ms)
+  Rendered layouts/partials/_flashes.html.erb (0.7ms)
+  Rendered layouts/partials/_footer.html.erb (0.6ms)
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+Completed 200 OK in 374ms (Views: 371.7ms | ActiveRecord: 0.3ms)
+
+
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Processing by DashboardController#dashboard_h as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (13.0ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (2.7ms)
+  Rendered layouts/partials/_offsidebar.html.erb (13.7ms)
+  Rendered layouts/partials/_flashes.html.erb (0.7ms)
+  Rendered layouts/partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 268ms (Views: 264.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:14 +0100
+Processing by DashboardController#dashboard_h as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (7.1ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (2.5ms)
+  Rendered layouts/partials/_offsidebar.html.erb (19.1ms)
+  Rendered layouts/partials/_flashes.html.erb (0.6ms)
+  Rendered layouts/partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 280ms (Views: 278.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.7.0" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Processing by DashboardController#dashboard_h as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (11.2ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (2.7ms)
+  Rendered layouts/partials/_offsidebar.html.erb (19.0ms)
+  Rendered layouts/partials/_flashes.html.erb (0.7ms)
+  Rendered layouts/partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 411ms (Views: 406.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.7.0" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Started GET "/" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Started GET "/dashboard/dashboard_h" for 127.0.0.1 at 2017-12-18 11:55:15 +0100
+Processing by DashboardController#dashboard_h as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (6.7ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (2.1ms)
+  Rendered layouts/partials/_offsidebar.html.erb (12.2ms)
+  Rendered layouts/partials/_flashes.html.erb (0.4ms)
+  Rendered layouts/partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 218ms (Views: 215.1ms | ActiveRecord: 0.6ms)
+
+
