@@ -13,11 +13,11 @@
    <%= stylesheet_link_tag params[:controller] %>
    <!-- =============== APP STYLES ===============-->
    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
-
    <%= csrf_meta_tags %>
 </head>
 
 <body>
+   <%= render partial: "layouts/partials/flashes" %>
    <div class="wrapper">
       <%= yield %>
    </div>
@@ -35,6 +35,7 @@
    <%= javascript_include_tag params[:controller] %>
    <!-- =============== APP SCRIPTS ===============-->
    <%= javascript_include_tag 'application' %>
+   <%= javascript_pack_tag 'application' %>
 </body>
 
 </html>

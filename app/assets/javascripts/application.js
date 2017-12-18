@@ -6,3 +6,5 @@
 //= require angle/app.init
 //= require_tree ./angle/modules
 //= require_tree ./angle/custom
+//= require rails-ujs
+//= require_tree .

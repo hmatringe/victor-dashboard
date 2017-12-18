@@ -29,6 +29,7 @@
       </aside>
       <!-- Main section-->
       <section>
+         <%= render partial: "layouts/partials/flashes" %>
          <!-- Page content-->
          <div class="content-wrapper">
             <%= yield %>
@@ -45,6 +46,7 @@
    <%= javascript_include_tag params[:controller] %>
    <!-- =============== APP SCRIPTS ===============-->
    <%= javascript_include_tag 'application' %>
+   <%= javascript_pack_tag 'application' %>
 </body>
 
 </html>
