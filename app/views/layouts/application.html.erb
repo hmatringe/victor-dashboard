@@ -10,7 +10,9 @@
    <!-- =============== VENDOR STYLES ===============-->
    <%= stylesheet_link_tag 'base' %>
    <!-- =============== VIEW VENDOR STYLES ===============-->
-   <%= stylesheet_link_tag params[:controller] if controller_name != "sessions"  %>
+   <% unless controller_name == "sessions" || "projects" %>
+   <%= stylesheet_link_tag params[:controller] %>
+   <% end %>
    <!-- =============== APP STYLES ===============-->
    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
    <%= csrf_meta_tags %>
@@ -46,7 +48,9 @@
    <!-- =============== VENDOR SCRIPTS ===============-->
    <%= javascript_include_tag 'base' %>
    <!-- =============== VIEW VENDOR SCRIPTS ===============-->
-   <%= javascript_include_tag params[:controller] if controller_name != "sessions" %>
+   <% unless controller_name == "sessions" || "projects" %>
+      <%= javascript_include_tag params[:controller] %>
+   <% end %>
    <!-- =============== APP SCRIPTS ===============-->
    <%= javascript_include_tag 'application' %>
    <%= javascript_pack_tag 'application' %>
