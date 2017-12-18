@@ -1,6 +1,6 @@
 class Scope < ApplicationRecord
-	has_many :participants
-	has_many :projects
+	has_many :participants, dependent: :destroy
+	has_many :projects, dependent: :destroy
 
 	validates :name, presence: true
 	validates :ranking, presence: true
